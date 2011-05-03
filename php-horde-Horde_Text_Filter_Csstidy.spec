@@ -9,7 +9,7 @@ License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	0ddfd69fba5b103185618d7b2d5a8e51
-URL:		http://pear.horde.org/package/Horde_Text_Filter_Csstidy/
+URL:		https://github.com/horde/horde/tree/master/framework/Text_Filter_Csstidy/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
