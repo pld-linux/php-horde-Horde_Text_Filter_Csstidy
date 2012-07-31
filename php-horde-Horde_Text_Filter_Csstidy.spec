@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Text Filter API
 Name:		php-horde-Horde_Text_Filter_Csstidy
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	0ddfd69fba5b103185618d7b2d5a8e51
+# Source0-md5:	336862f3af024775626a22b3f281c3ae
 URL:		https://github.com/horde/horde/tree/master/framework/Text_Filter_Csstidy/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
