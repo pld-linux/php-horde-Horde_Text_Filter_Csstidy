@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Text_Filter_Csstidy
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Text Filter API
 Name:		php-horde-Horde_Text_Filter_Csstidy
 Version:	1.0.1
