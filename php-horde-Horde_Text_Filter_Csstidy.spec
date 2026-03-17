@@ -3,7 +3,7 @@
 Summary:	%{pearname} - Horde Text Filter API
 Name:		php-horde-Horde_Text_Filter_Csstidy
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -22,7 +22,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # an external package that doesn't conform to Horde naming standards.
-%define		_noautoreq pear(class.csstidy_optimise.php) pear(class.csstidy_print.php) pear(data.inc.php)
+%define		_noautoreq_pear class.csstidy_optimise.php class.csstidy_print.php data.inc.php
 
 %description
 The Horde_Text_Filter_Csstidy:: class provides the PHP-based library
